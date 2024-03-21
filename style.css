@@ -1,0 +1,47 @@
+body {
+  padding: 0 0 0 1em;
+  background-color: #344592;
+  font-family: sans-serif;
+}
+.titulo {
+  margin: auto;
+  padding: 3em 0 2em 0;
+  color: #fefefe;
+  text-align: left;
+}
+.cajas {
+  display: block;
+  margin: auto;
+}
+.ventana {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1em;
+  width: 30vw;
+  height: 15vw;
+  border-radius: 0.5em;
+  background-color: gainsboro;
+}
+.lab {
+  color: #000000;
+}
+.mensaje {
+  padding: 10px 10px;
+  width: 95%;
+  height: 12vw;
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: white;
+  text-align: start;  
+}
+.btn {
+  margin: 15px 10px 0 0;
+  padding: 10px;
+  border: 0;
+  border-radius: 0.5em;
+  background-color: rgb(172, 208, 172);
+  color: black;
+  font-weight: bold;  
+}
+
+

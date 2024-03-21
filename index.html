@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Encriptador de Texto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main">    
+    <h1 class="titulo">ENCRIPTADOR DE TEXTO </h1>
+    <section class="cajas">
+      <section class="ventana">
+        <form action="">
+          <label class="lab" for="input-texto" >Encriptador de Texto</label>
+          <textarea class="mensaje" cols="30" rows="10" type="text" id="input-texto" placeholder="Texto en minúscula"></textarea>          
+        </form>      
+      </section>  
+      <section class="ventana">
+        <label class="lab" for="msg" >Mensaje</label>
+        <textarea class="mensaje" cols="30" rows="10" type="text" id="msg" ></textarea>
+      </section>
+    </section>
+    
+    <input class="btn" type="button" value="Encriptar" id="btn-encriptar">
+    <input class="btn" type="button" value="Desencriptar" id="btn-desencriptar">
+    <input class="btn" type="button" value="Copiar" id="btn-copiar">
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
